@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherly</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/imgs/favicon.ico">
+</head>
+<body>
+
+    <header>
+        <nav>
+           <a href="index.html" class="logo"><img src="./assets/imgs/logo.png" alt=""></a> 
+
+           <div><div class="mobile-nav">
+  <span></span>
+</div></div>
+        </nav>
+
+        <div class="mobile-menu">
+             <aside class="side-panel mobile">
+            <form>
+                <input type="text" placeholder="Search Location..." name="cityInput"/>
+                <button type="submit"><img src="./assets/imgs/search.png" alt=""></button>
+            </form>
+            <div class="suggestions">
+                <p>Lagos</p>
+                <p>London</p>
+                <p>New York</p>
+                <p>Uyo</p>
+            </div>
+            <div  class="weather-info">
+                <h4>Weather Details</h4>
+                    <div>
+                        <p>Humidity</p>
+                        <p>78%</p>
+                    </div>
+                    <div>
+                        <p>Wind Speed</p>
+                        <p>12 km/h</p>
+                    </div>
+                    <div>
+                        <p>Pressure</p>
+                        <p>1015 hPa</p>
+                    </div>
+            </div>
+        </aside>
+        </div>
+    </header>
+    
+    <section class="thunderstorm-container" id="thunderstorm" 
+    style="display: none;"
+    >
+        <video src="/assets/videos/thunderstorm.mp4" autoplay muted loop></video>
+
+       <div class="overlay"></div>
+                   <div class="weather-details">
+               <h1 class="temparature">22<sup><small>°C</small></sup> </h1>
+               <div class="sub-details">
+                  <div>
+                      <h2 class="location">
+                       California City
+                      </h2>
+                      <p class="time">5:00 - Friday 20, 2025</p>
+                  </div>
+                  <div class="status">
+                   <p class="emoji">⛈️</p>
+                   <p class="description">Thunderstorm</p>
+                  </div>
+               </div>
+               </div>
+               <aside class="side-panel desktop">
+                   <form>
+                       <input type="text" placeholder="Search Location..." name="cityInput"/>
+                       <button type="submit"><img src="./assets/imgs/search.png" alt=""></button>
+                   </form>
+                   <div class="suggestions">
+                        <p>Lagos</p>
+                <p>London</p>
+                <p>New York</p>
+                <p>Uyo</p>
+                   </div>
+                   <div  class="weather-info">
+                       <h4>Weather Details</h4>
+                           <div>
+                               <p>Humidity</p>
+                               <p class="humidity">78%</p>
+                           </div>
+                           <div>
+                               <p>Wind Speed</p>
+                               <p class="speed">12 km/h</p>
+                           </div>
+                           <div>
+                               <p>Pressure</p>
+                               <p class="pressure">1015 hPa</p>
+                           </div>
+                   </div>
+               </aside>
+        
+    </section>
+
+    <section class="rain-container" style="display: none;" id="rain">
+    <video src="/assets/videos/rain4.mp4" autoplay muted loop></video>
+
+           <div class="overlay"></div>
+                   <div class="weather-details">
+               <h1 class="temparature">22<sup><small>°C</small></sup> </h1>
+               <div class="sub-details">
+                  <div>
+                      <h2 class="location">
+                       California City
+                      </h2>
+                      <p class="time">5:00 - Friday 20, 2025</p>
+                  </div>
+                  <div class="status">
+                   <p class="emoji">⛈️</p>
+                   <p class="description">Thunderstorm</p>
+                  </div>
+               </div>
+               </div>
+               <aside class="side-panel desktop">
+                   <form>
+                       <input type="text" placeholder="Search Location..." name="cityInput"/>
+                       <button type="submit"><img src="./assets/imgs/search.png" alt=""></button>
+                   </form>
+                   <div class="suggestions">
+                       <p>Lagos</p>
+                       <p>London</p>
+                       <p>New York</p>
+                       <p>Uyo</p>
+                   </div>
+                   <div  class="weather-info">
+                       <h4>Weather Details</h4>
+                           <div>
+                               <p>Humidity</p>
+                               <p class="humidity">78%</p>
+                           </div>
+                           <div>
+                               <p>Wind Speed</p>
+                               <p class="speed">12 km/h</p>
+                           </div>
+                           <div>
+                               <p>Pressure</p>
+                               <p class="pressure">1015 hPa</p>
+                           </div>
+                   </div>
+               </aside>
+    </section>
+
+     <section class="drizzle" style="display: none;" id="drizzle">
+    <video src="/assets/videos/drizzle7.mp4" autoplay muted loop></video>
+
+        <div class="overlay"></div>
+                   <div class="weather-details">
+               <h1 class="temparature">22<sup><small>°C</small></sup> </h1>
+               <div class="sub-details">
+                  <div>
+                      <h2 class="location">
+                       California City
+                      </h2>
+                      <p class="time">5:00 - Friday 20, 2025</p>
+                  </div>
+                  <div class="status">
+                   <p class="emoji">⛈️</p>
+                   <p class="description">Thunderstorm</p>
+                  </div>
+               </div>
+               </div>
+               <aside class="side-panel desktop">
+                   <form>
+                       <input type="text" placeholder="Search Location..." name="cityInput"/>
+                       <button type="submit"><img src="./assets/imgs/search.png" alt=""></button>
+                   </form>
+                   <div class="suggestions">
+                        <p>Lagos</p>
+                <p>London</p>
+                <p>New York</p>
+                <p>Uyo</p>
+                   </div>
+                   <div  class="weather-info">
+                       <h4>Weather Details</h4>
+                           <div>
+                               <p>Humidity</p>
+                               <p class="humidity">78%</p>
+                           </div>
+                           <div>
+                               <p>Wind Speed</p>
+                               <p class="speed">12 km/h</p>
+                           </div>
+                           <div>
+                               <p>Pressure</p>
+                               <p class="pressure">1015 hPa</p>
+                           </div>
+                   </div>
+               </aside>
+    </section>
+
+
+
+     <section class="snowContainer" style="display: none;" id="snow">
+    <video src="/assets/videos/snow6.mp4" autoplay muted loop></video>
+
+        <div class="overlay"></div>
+                   <div class="weather-details">
+               <h1 class="temparature">22<sup><small>°C</small></sup> </h1>
+               <div class="sub-details">
+                  <div>
+                      <h2 class="location">
+                       California City
+                      </h2>
+                      <p class="time">5:00 - Friday 20, 2025</p>
+                  </div>
+                  <div class="status">
+                   <p class="emoji">⛈️</p>
+                   <p class="description">Thunderstorm</p>
+                  </div>
+               </div>
+               </div>
+               <aside class="side-panel desktop">
+                   <form>
+                       <input type="text" placeholder="Search Location..." name="cityInput"/>
+                       <button type="submit"><img src="./assets/imgs/search.png" alt=""></button>
+                   </form>
+                   <div class="suggestions">
+                        <p>Lagos</p>
+                <p>London</p>
+                <p>New York</p>
+                <p>Uyo</p>
+                   </div>
+                   <div  class="weather-info">
+                       <h4>Weather Details</h4>
+                           <div>
+                               <p>Humidity</p>
+                               <p class="humidity">78%</p>
+                           </div>
+                           <div>
+                               <p>Wind Speed</p>
+                               <p class="speed">12 km/h</p>
+                           </div>
+                           <div>
+                               <p>Pressure</p>
+                               <p class="pressure">1015 hPa</p>
+                           </div>
+                   </div>
+               </aside>
+     </section>
+
+     <section class="cloud-container" style="display: none;" id="cloudy">
+
+     <div class="cloud-container1">
+        <video src="/assets/videos/cloud.mp4" autoplay muted loop></video>
+        <div class="overlay"></div>
+                   <div class="weather-details">
+               <h1 class="temparature">22<sup><small>°C</small></sup> </h1>
+               <div class="sub-details">
+                  <div>
+                      <h2 class="location">
+                       California City
+                      </h2>
+                      <p class="time">5:00 - Friday 20, 2025</p>
+                  </div>
+                  <div class="status">
+                   <p class="emoji">⛈️</p>
+                   <p class="description">Thunderstorm</p>
+                  </div>
+               </div>
+               </div>
+               <aside class="side-panel desktop">
+                   <form>
+                       <input type="text" placeholder="Search Location..." name="cityInput"/>
+                       <button type="submit"><img src="./assets/imgs/search.png" alt=""></button>
+                   </form>
+                   <div class="suggestions">
+                        <p>Lagos</p>
+                <p>London</p>
+                <p>New York</p>
+                <p>Uyo</p>
+                   </div>
+                   <div  class="weather-info">
+                       <h4>Weather Details</h4>
+                           <div>
+                               <p>Humidity</p>
+                               <p class="humidity">78%</p>
+                           </div>
+                           <div>
+                               <p>Wind Speed</p>
+                               <p class="speed">12 km/h</p>
+                           </div>
+                           <div>
+                               <p>Pressure</p>
+                               <p class="pressure">1015 hPa</p>
+                           </div>
+                   </div>
+               </aside>
+     </div>
+
+
+     </section>
+
+     <section class="sun-container" style="display: none;" id="sun">
+                         <video src="/assets/videos/sun4.mp4" autoplay muted loop></video>
+
+         <div class="overlay"></div>
+                    <div class="weather-details">
+               <h1 class="temparature">22<sup><small>°C</small></sup> </h1>
+               <div class="sub-details">
+                  <div>
+                      <h2 class="location">
+                       California City
+                      </h2>
+                      <p class="time">5:00 - Friday 20, 2025</p>
+                  </div>
+                  <div class="status">
+                   <p class="emoji">⛈️</p>
+                   <p class="description">Thunderstorm</p>
+                  </div>
+               </div>
+               </div>
+               <aside class="side-panel desktop">
+                   <form>
+                       <input type="text" placeholder="Search Location..." name="cityInput"/>
+                       <button type="submit"><img src="./assets/imgs/search.png" alt=""></button>
+                   </form>
+                   <div class="suggestions">
+                        <p>Lagos</p>
+                <p>London</p>
+                <p>New York</p>
+                <p>Uyo</p>
+                   </div>
+                   <div  class="weather-info">
+                       <h4>Weather Details</h4>
+                           <div>
+                               <p>Humidity</p>
+                               <p class="humidity">78%</p>
+                           </div>
+                           <div>
+                               <p>Wind Speed</p>
+                               <p class="speed">12 km/h</p>
+                           </div>
+                           <div>
+                               <p>Pressure</p>
+                               <p class="pressure">1015 hPa</p>
+                           </div>
+                   </div>
+               </aside>
+     </section>
+
+     <section class="fog" style="display: none;" id="fog">
+
+                <video src="/assets/videos/fog4.mp4" autoplay muted loop></video>
+
+
+         <div class="overlay"></div>
+                   <div class="weather-details">
+               <h1 class="temparature">22<sup><small>°C</small></sup> </h1>
+               <div class="sub-details">
+                  <div>
+                      <h2 class="location">
+                       California City
+                      </h2>
+                      <p class="time">5:00 - Friday 20, 2025</p>
+                  </div>
+                  <div class="status">
+                   <p class="emoji">⛈️</p>
+                   <p class="description">Thunderstorm</p>
+                  </div>
+               </div>
+               </div>
+               <aside class="side-panel desktop">
+                   <form>
+                       <input type="text" placeholder="Search Location..." name="cityInput"/>
+                       <button type="submit"><img src="./assets/imgs/search.png" alt=""></button>
+                   </form>
+                   <div class="suggestions">
+                        <p>Lagos</p>
+                <p>London</p>
+                <p>New York</p>
+                <p>Uyo</p>
+                   </div>
+                   <div  class="weather-info">
+                       <h4>Weather Details</h4>
+                           <div>
+                               <p>Humidity</p>
+                               <p class="humidity">78%</p>
+                           </div>
+                           <div>
+                               <p>Wind Speed</p>
+                               <p class="speed">12 km/h</p>
+                           </div>
+                           <div>
+                               <p>Pressure</p>
+                               <p class="pressure">1015 hPa</p>
+                           </div>
+                   </div>
+               </aside>
+     </section>
+
+     <div class="pop-up">
+        <p>Please enter a valid city name</p>
+     </div>
+
+     <script src="./js/index.js"></script>
+
+    <script>
+     let menuToggle = document.querySelector(".mobile-nav");
+
+let nav = document.querySelector(".mobile-menu");
+let section = document.querySelectorAll("section");
+let suggestion = document.querySelectorAll(".suggestions p");
+
+
+menuToggle.onclick = function() {
+    nav.classList.add("show");
+ setTimeout(() => {
+     menuToggle.classList.add("active");
+    }, 200); 
+}
+
+section.forEach((sec) => {
+    sec.onclick = function() {
+  menuToggle.classList.remove("active");
+  nav.classList.remove("show");
+}});
+
+
+suggestion.forEach((sec) => {
+    sec.onclick = function() {
+  menuToggle.classList.remove("active");
+  nav.classList.remove("show");
+}});
+
+
+    </script>
+
+</body>
+</html>
