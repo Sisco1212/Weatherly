@@ -2,7 +2,7 @@
 
 Weatherly is a browser-based weather dashboard that retrieves current conditions for a city and pairs the results with a full-screen, weather-specific video background. It is implemented as a static HTML, CSS, and JavaScript application, with weather data provided by OpenWeather's Current Weather API.
 
-**Live demo:** [weatherly-six-neon.vercel.app](https://weatherly-sisco.vercel.app)
+**Live demo:** [weatherly-sisco.vercel.app](https://weatherly-sisco.vercel.app)
 
 ## Features
 
